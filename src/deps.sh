@@ -12,9 +12,9 @@ helm init --client-only --kubeconfig=$HOME/.kube/kubeconfig
 
 curl -sSL https://get.helm.sh/helm-v3.4.0-linux-amd64.tar.gz | tar xz && mv linux-amd64/helm /bin/helmv3 && rm -rf linux-amd64
 
-helmv3 version
+# helmv3 version
 
 # helm repo add stable https://kubernetes-charts.storage.googleapis.com
 # helmv3 repo add stable https://kubernetes-charts.storage.googleapis.com
 
-helmv3 repo list
+# helmv3 repo list

@@ -14,7 +14,7 @@ curl -sSL https://get.helm.sh/helm-v3.4.0-linux-amd64.tar.gz | tar xz && mv linu
 
 helmv3 version
 
-helm repo add stable https://kubernetes-charts.storage.googleapis.com
-helmv3 repo add stable https://kubernetes-charts.storage.googleapis.com
+# helm repo add stable https://kubernetes-charts.storage.googleapis.com
+# helmv3 repo add stable https://kubernetes-charts.storage.googleapis.com
 
 helmv3 repo list
